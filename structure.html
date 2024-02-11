@@ -1,34 +1,20 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>My first Website</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
     <link rel="stylesheet" href="webpage.css">
 </head>
+
 <body>
-    <nav id="nav">
-        <div>Gmail</div>
-        <div>Images</div>
-    </nav>
-    <container>
-        <div id="logo">Google</div>
-        <div>
-            <input>
-            <div><button>Google Search</button>
-                <button>I'm feeling lucky</button>
-            </div>
-        </div>
-    </container>
-    <footer>
-        <div id="footer1">
-            India
-        </div>
-        <div id="footer2">
-            <div>About</div>
-            <div>Advertising</div>
-            <div>Business</div>
-            <div>How Search Work</div>
-            <div>Privacy</div>
-            <div>Terms</div>
-            <div>Settings</div>
-        </div>
-    </footer>
+    <form class="weatherForm">
+        <input type="text" class="cityInput" placeholder="Enter the city name">
+        <button type="submit">Get weather</button>
+    </form>
+    <div class="card" style="display: none">
+    </div>
+    <script src="webpage.js"></script>
 </body>
+</html>
