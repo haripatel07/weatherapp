@@ -1,2 +1,2 @@
 # weatherapp
-weatherapp using html,css,javascript
+This weatherapp was a practice work made with the help of a tutorial
